@@ -3,7 +3,7 @@ import cache from 'memory-cache'
 
 const url = "https://restcountries-v1.p.rapidapi.com";
 const headers = {
-  "x-rapidapi-key": "2b0e196206msh8f60da1c89a6d2ap179820jsna46ff9581b32",
+  "x-rapidapi-key": process.env.RAPID_API_KEY,
   "x-rapidapi-host": "restcountries-v1.p.rapidapi.com",
 };
 
